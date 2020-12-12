@@ -2,7 +2,8 @@ import React from 'react';
 
 const Accordion = ({ items }) => {
   const renderedItems = items.map((item) => {
-    return <div key={item.title}>
+    // return React.Fragment instead of div to avoid double border on accordion which is a side effect of Semantic UI
+    return <React.Fragment key={item.title}>
       <div className="title active">
         <i className="dropdown icon"></i>
         {item.title}
@@ -10,7 +11,7 @@ const Accordion = ({ items }) => {
       <div className="content active">
         <p>{item.content}</p>
       </div>
-    </div>
+    </React.Fragment>
   });
   return <div className="ui styled accordion">{renderedItems}</div>;
 };
