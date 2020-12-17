@@ -5,6 +5,7 @@ import Dropdown from './components/Dropdown';
 import Translate from './components/Translate';
 import Route from './components/Route';
 import Header from './components/Header';
+import './App.css';
 
 
 const App = () => {
@@ -29,15 +30,18 @@ const App = () => {
   const options = [
     {
       label: 'The Color Red',
-      value: 'red'
+      value: 'red',
+      hex: '#f03a47'
     },
     {
       label: 'The Color Green',
-      value: 'green'
+      value: 'green',
+      hex: '#86cd82'
     },
     {
       label: 'A Shade of Blue',
-      value: 'blue'
+      value: 'blue',
+      hex: '#276fbf'
     },
   ];
 
