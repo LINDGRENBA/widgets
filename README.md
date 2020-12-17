@@ -66,11 +66,10 @@ export default Convert;
 * CSS
 * React
 * Axios library
-* YouTube API 
+* Google Translate API 
+* Wikipedia API
 * Git & Github
 * VS Code
 * [Semantic-ui](https://semantic-ui.com/views/card.html)  
 <br/>
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
